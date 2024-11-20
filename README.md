@@ -60,5 +60,8 @@ Cuisines and Preferences:
 Chinese, Italian, and Indian cuisines are most popular near tourist spots.
 
 Strategic Insights:
-Restaurants closer to tourist attractions tend to perform better in terms of ratings and reviews.
+Restaurants closer to tourist attractions tend to perform better in terms of ratings and reviews. 
 
+ datasets :
+ https://drive.google.com/file/d/1onWf1wr__d62KDn509JhmxQD1e7U1by2/view?usp=sharing
+ 
