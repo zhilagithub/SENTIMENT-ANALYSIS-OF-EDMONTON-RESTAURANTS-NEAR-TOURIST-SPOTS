@@ -25,31 +25,40 @@ Dataset
 
 Yelp Business Dataset:
 ~150,000 entries with details on 5,573 restaurants in Edmonton.
+
 Yelp Review Dataset:
 Over 58,000 reviews specific to Edmonton restaurants.
+
 Edmonton Attractions Dataset:
 Information on 56 tourist sites in Edmonton for proximity analysis.
+
 Methodology
 
 Sentiment Analysis
 BERT: For long, nuanced reviews.
 VADER: For short, direct reviews.
 TextBlob: Baseline polarity analysis.
+
 Geospatial Visualization
 Clustering Analysis: Groups restaurants by rating and proximity.
 Interactive Maps: Highlights areas with high and low customer satisfaction.
+
 Statistical Testing
+
 Correlation Analysis: Evaluates proximity-rating relationships using Pearson and Spearman coefficients.
 Chi-Square Testing: Assesses significance between proximity and higher ratings.
 Time-Series Forecasting
 Projects sentiment trends up to 2026 using ARIMA, SARIMA, and Prophet.
+
 Results
 
 Sentiment Trends:
 Positive correlation between proximity to attractions and higher ratings.
 Seasonal sentiment patterns identified using forecasting models.
+
 Cuisines and Preferences:
 Chinese, Italian, and Indian cuisines are most popular near tourist spots.
+
 Strategic Insights:
 Restaurants closer to tourist attractions tend to perform better in terms of ratings and reviews.
 
