@@ -64,4 +64,10 @@ Restaurants closer to tourist attractions tend to perform better in terms of rat
 
  datasets :
  https://drive.google.com/file/d/1onWf1wr__d62KDn509JhmxQD1e7U1by2/view?usp=sharing
+ https://drive.google.com/file/d/1Oj1-iALq24mT2b0JExCoJ9SlYkjeiUrT/view?usp=sharing
+ https://drive.google.com/file/d/1qm_uaIeSjAq1Kt_j6Fv3dE92ZmDa1Wuh/view?usp=sharing
+ https://drive.google.com/file/d/1Ng40pSowLLNtwHVA79Q1khLeqDcRjjyu/view?usp=sharing
+ https://drive.google.com/file/d/12tCpM5HaCMOcIt0mBqbz-XReO-xmF38-/view?usp=sharing
+ https://drive.google.com/file/d/1onWf1wr__d62KDn509JhmxQD1e7U1by2/view?usp=sharing
+ https://drive.google.com/file/d/1NoJIVytfeJW774DyOrYJCf4CN7lA9omd/view?usp=sharing
  
