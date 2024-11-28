@@ -70,4 +70,11 @@ Restaurants closer to tourist attractions tend to perform better in terms of rat
  https://drive.google.com/file/d/12tCpM5HaCMOcIt0mBqbz-XReO-xmF38-/view?usp=sharing
  https://drive.google.com/file/d/1onWf1wr__d62KDn509JhmxQD1e7U1by2/view?usp=sharing
  https://drive.google.com/file/d/1NoJIVytfeJW774DyOrYJCf4CN7lA9omd/view?usp=sharing
+
+ video :
+ https://drive.google.com/file/d/1O-QVB_LQ8cn86YNARVtdUBAXLhz5T1uF/view?usp=sharing, 
+ https://drive.google.com/file/d/1OMbnEEqsrPjPHWbso5Q0a7wRAjItwKaW/view?usp=sharing, 
+ https://drive.google.com/file/d/1PEawp2SNcUhY3BT2ZehVSfJoE2-wkBUc/view?usp=sharing,
+ https://drive.google.com/file/d/1q1ejsGWCjbF7vxSkIZ7VuXDClCIGarIp/view?usp=sharing,
+ https://drive.google.com/file/d/1umaMfVinceWS-rYXyfo4JDn6FijrbVo6/view?usp=sharing
  
