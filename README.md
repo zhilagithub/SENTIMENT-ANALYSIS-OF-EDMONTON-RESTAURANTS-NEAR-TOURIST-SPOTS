@@ -1,5 +1,12 @@
 # Sentiment Analysis of Edmonton Restaurants Near Tourist Spots
 
+
+
+**Milestone Project — Toronto Metropolitan University (TMU)**  
+**Course: CIND 280 | Grade: A**
+
+
+
 ## Overview
 
 This project analyzes Yelp restaurant reviews to explore how customer sentiment and restaurant ratings relate to proximity to tourist attractions in Edmonton, Canada.
