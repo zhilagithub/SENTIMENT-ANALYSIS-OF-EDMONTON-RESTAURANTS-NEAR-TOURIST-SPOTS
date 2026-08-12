@@ -1,83 +1,74 @@
-Sentiment Analysis of Edmonton Restaurants Near Tourist Spots
+# Sentiment Analysis of Edmonton Restaurants Near Tourist Spots
 
-Overview
+## Overview
 
-This project conducts a sentiment analysis of Yelp reviews for restaurants in Edmonton, Canada, specifically focusing on establishments near popular tourist attractions. The analysis spans reviews from 2008 to 2021 and leverages advanced natural language processing (NLP) models, statistical analyses, and geospatial techniques to provide actionable insights for restaurant managers, tourism stakeholders, and city planners.
+This project analyzes Yelp restaurant reviews to explore how customer sentiment and restaurant ratings relate to proximity to tourist attractions in Edmonton, Canada.
 
-Key Features
+The analysis combines Yelp business and review data with information on 56 Edmonton tourist attractions. It examines 5,573 Edmonton restaurants and 58,539 Edmonton reviews, including 18,792 reviews associated with restaurants near tourist attractions from 2008 to 2021.
 
-Advanced Sentiment Analysis:
-Utilizes BERT, VADER, and TextBlob models to analyze customer reviews.
-Combines outputs for nuanced sentiment classification.
-Geospatial Analysis:
-Maps restaurant clusters and sentiment distribution using Folium.
-Identifies correlations between restaurant proximity to attractions and customer ratings.
-Time-Series Forecasting:
-Projects sentiment trends using models like ARIMA, SARIMA, and Prophet.
-Evaluates external factors (e.g., economic downturns, global events) impacting sentiment.
-Feature Engineering:
-Introduces the higher_stars_near_attractions feature to quantify the impact of location on ratings.
-Culinary Insights:
-Applies association rule mining to identify popular cuisines near tourist spots.
-Interactive Visualizations:
-Provides interactive maps for exploring sentiment trends and restaurant ratings.
-Dataset
+The project combines natural language processing, geospatial analysis, statistical analysis, machine learning, and time-series forecasting to identify patterns in customer sentiment and generate insights relevant to restaurant and tourism stakeholders.
 
-Yelp Business Dataset:
-~150,000 entries with details on 5,573 restaurants in Edmonton.
+## Key Features
 
-Yelp Review Dataset:
-Over 58,000 reviews specific to Edmonton restaurants.
+- **Sentiment Analysis:** Applied BERT, VADER, and TextBlob to classify sentiment in customer reviews.
+- **Geospatial Analysis:** Examined restaurant locations and proximity to Edmonton tourist attractions using geospatial techniques and Folium.
+- **Time-Series Forecasting:** Analyzed and forecasted sentiment trends using ARIMA, SARIMA, and Prophet.
+- **Feature Engineering:** Created location-based features to investigate the relationship between proximity to attractions and restaurant ratings.
+- **Culinary Insights:** Used association rule mining to identify cuisine patterns near tourist attractions.
+- **Interactive Visualizations:** Developed maps and visualizations to explore restaurant locations, ratings, and sentiment patterns.
 
-Edmonton Attractions Dataset:
-Information on 56 tourist sites in Edmonton for proximity analysis.
+  ## Dataset
 
-Methodology
+- **Yelp Business Dataset:** Contains business information used to identify 5,573 restaurants in Edmonton.
+- **Yelp Review Dataset:** Contains 58,539 reviews for Edmonton restaurants used in the analysis.
+- **Edmonton Attractions Dataset:** Contains information on 56 tourist attractions used for proximity and geospatial analysis.
 
-Sentiment Analysis
-BERT: For long, nuanced reviews.
-VADER: For short, direct reviews.
-TextBlob: Baseline polarity analysis.
+## Methodology
 
-Geospatial Visualization
-Clustering Analysis: Groups restaurants by rating and proximity.
-Interactive Maps: Highlights areas with high and low customer satisfaction.
+### Sentiment Analysis
+- **BERT:** Used for contextual sentiment analysis of customer reviews.
+- **VADER:** Applied as a lexicon-based sentiment model.
+- **TextBlob:** Used as an additional baseline sentiment approach.
 
-Statistical Testing
+### Geospatial Analysis
+- Analyzed restaurant proximity to Edmonton tourist attractions.
+- Used clustering and interactive maps to explore geographic patterns in restaurant ratings and sentiment.
 
-Correlation Analysis: Evaluates proximity-rating relationships using Pearson and Spearman coefficients.
-Chi-Square Testing: Assesses significance between proximity and higher ratings.
-Time-Series Forecasting
-Projects sentiment trends up to 2026 using ARIMA, SARIMA, and Prophet.
+### Statistical Analysis
+- Used Pearson and Spearman correlations to examine relationships between proximity to tourist attractions and restaurant ratings.
+- Applied Chi-Square testing to evaluate associations between proximity and higher restaurant ratings.
 
-Results
+### Time-Series Forecasting
+- Analyzed historical sentiment trends and generated forecasts using ARIMA, SARIMA, and Prophet.
+  
 
-Sentiment Trends:
-Positive correlation between proximity to attractions and higher ratings.
-Seasonal sentiment patterns identified using forecasting models.
+## Results
 
-Cuisines and Preferences:
-Chinese, Italian, and Indian cuisines are most popular near tourist spots.
+### Sentiment and Location
+- Restaurants located closer to tourist attractions showed a positive relationship with higher restaurant ratings.
+- Sentiment analysis identified patterns in customer opinions across Edmonton restaurants.
 
-Strategic Insights:
-Restaurants closer to tourist attractions tend to perform better in terms of ratings and reviews. 
+### Cuisine Patterns
+- Chinese, Italian, and Indian cuisines were among the most prominent cuisines identified near tourist attractions.
 
- datasets :
- https://drive.google.com/file/d/1onWf1wr__d62KDn509JhmxQD1e7U1by2/view?usp=sharing
- https://drive.google.com/file/d/1Oj1-iALq24mT2b0JExCoJ9SlYkjeiUrT/view?usp=sharing
- https://drive.google.com/file/d/1qm_uaIeSjAq1Kt_j6Fv3dE92ZmDa1Wuh/view?usp=sharing
- https://drive.google.com/file/d/1Ng40pSowLLNtwHVA79Q1khLeqDcRjjyu/view?usp=sharing
- https://drive.google.com/file/d/12tCpM5HaCMOcIt0mBqbz-XReO-xmF38-/view?usp=sharing
- https://drive.google.com/file/d/1onWf1wr__d62KDn509JhmxQD1e7U1by2/view?usp=sharing
- https://drive.google.com/file/d/1NoJIVytfeJW774DyOrYJCf4CN7lA9omd/view?usp=sharing
+### Forecasting
+- Time-series models were used to examine historical sentiment patterns and forecast future sentiment trends.
 
- video :
- https://drive.google.com/file/d/1O-QVB_LQ8cn86YNARVtdUBAXLhz5T1uF/view?usp=sharing, 
- https://drive.google.com/file/d/1OMbnEEqsrPjPHWbso5Q0a7wRAjItwKaW/view?usp=sharing, 
- https://drive.google.com/file/d/1PEawp2SNcUhY3BT2ZehVSfJoE2-wkBUc/view?usp=sharing,
- https://drive.google.com/file/d/1q1ejsGWCjbF7vxSkIZ7VuXDClCIGarIp/view?usp=sharing,
- https://drive.google.com/file/d/1umaMfVinceWS-rYXyfo4JDn6FijrbVo6/view?usp=sharing
+### Strategic Insight
+- The analysis suggests that restaurant location relative to tourist attractions may be associated with customer ratings and review patterns.
 
- powerpoint:
- https://docs.google.com/presentation/d/1AkuGPyx_QQ2Mw6AnrOM2R2QI0WQsrGQh/edit?usp=share_link&ouid=104918625522980053747&rtpof=true&sd=true
- 
+ ## Tools & Technologies
+
+- **Python:** pandas, NumPy, scikit-learn
+- **NLP:** BERT, VADER, TextBlob
+- **Statistical Analysis:** Pearson correlation, Spearman correlation, Chi-Square testing
+- **Time-Series Forecasting:** ARIMA, SARIMA, Prophet
+- **Geospatial Analysis & Visualization:** Folium
+- **Development Environment:** Jupyter Notebook
+
+## Repository Structure
+
+- `data/` – datasets used and generated during the analysis
+- `notebooks/` – data preprocessing, sentiment analysis, modeling, and forecasting notebooks
+- `reports/` – final report, literature review, and project presentation
+- `images/` – visualizations used in the project README
