@@ -68,7 +68,27 @@ The project combines natural language processing, geospatial analysis, statistic
 
 ## Repository Structure
 
-- `data/` – datasets used and generated during the analysis
-- `notebooks/` – data preprocessing, sentiment analysis, modeling, and forecasting notebooks
-- `reports/` – final report, literature review, and project presentation
-- `images/` – visualizations used in the project README
+
+SENTIMENT-ANALYSIS-OF-EDMONTON-RESTAURANTS-NEAR-TOURIST-SPOTS/
+│
+├── README.md
+│
+├── data/
+│   ├── README.md
+│   ├── attractions.csv
+│   ├── edmonton_cleaned_business.csv
+│   ├── attraction_filtered_reviews.csv
+│   └── refined_dataset.csv
+│
+├── notebooks/
+│   ├── README.md
+│   ├── 01_business_data_preprocessing.ipynb
+│   ├── 02_attraction_data_preprocessing.ipynb
+│   ├── 03_review_data_preprocessing.ipynb
+│   └── 04_sentiment_modeling_and_forecasting.ipynb
+│
+└── reports/
+    ├── README.md
+    ├── final_report.pdf
+    ├── literature_review.pdf
+    └── sentiment_analysis_presentation.pptx
