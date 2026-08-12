@@ -66,9 +66,10 @@ The project combines natural language processing, geospatial analysis, statistic
 - **Geospatial Analysis & Visualization:** Folium
 - **Development Environment:** Jupyter Notebook
 
+
 ## Repository Structure
 
-
+```text
 SENTIMENT-ANALYSIS-OF-EDMONTON-RESTAURANTS-NEAR-TOURIST-SPOTS/
 │
 ├── README.md
@@ -92,3 +93,4 @@ SENTIMENT-ANALYSIS-OF-EDMONTON-RESTAURANTS-NEAR-TOURIST-SPOTS/
     ├── final_report.pdf
     ├── literature_review.pdf
     └── sentiment_analysis_presentation.pptx
+```
